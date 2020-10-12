@@ -12,7 +12,33 @@
 
 # Generated files
 bin/
-gen/
+gen/have the following scenario:
+
+Created a fork of a github repository
+Submitted a pull request (still opened)
+Deleted the fork
+Now, when I browse the opened PR on github, the repositories section says "unknown repository".
+
+I want to revert my fork in order to make this section displaying its name.
+
+My first idea was to re fork the upstream repository, rebase it properly (thank's to this one) and pray for that github automatically re-fill the correct name in the PR.
+
+Unfortunately, nothing happened.
+
+How can I achieve this ?have the following scenario:
+
+Created a fork of a github repository
+Submitted a pull request (still opened)
+Deleted the fork
+Now, when I browse the opened PR on github, the repositories section says "unknown repository".
+
+I want to revert my fork in order to make this section displaying its name.
+
+My first idea was to re fork the upstream repository, rebase it properly (thank's to this one) and pray for that github automatically re-fill the correct name in the PR.
+
+Unfortunately, nothing happened.
+
+How can I achieve this ?
 out/have the following scenario:
 
 Created a fork of a github repository
